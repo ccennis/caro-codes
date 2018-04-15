@@ -8,7 +8,7 @@
 
 {{-- site level styles --}}
 @section('site-stylesheets')
-    {{ Html::style(mix('assets/css/app.css')) }}
+    {{ Html::style(mix('css/all.css')) }}
 @show
 
 @yield('page-stylesheets')

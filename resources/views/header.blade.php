@@ -18,8 +18,8 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav pull-right">
                 <li><a id="aboutShow" href="#about">About <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Github</a></li>
-                <li><a href="#">Links</a></li>
+                <li><a id="aboutRepo" href="#repository">Github</a></li>
+                <li><a id="myLinks" href="#links">Work By Me</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">

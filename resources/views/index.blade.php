@@ -17,8 +17,11 @@
 
         {{--TODO div hidden guy pop in--}}
         @include('partials.about')
+        @include('partials.repository')
+        @include('partials.links')
 
-@endsection
+
+        @endsection
 
 @section('page-javascript')
     @parent
@@ -29,6 +32,20 @@
         $('#aboutShow').click(function () {
             $('#about').toggle( "slide", {direction: "left" }, 1000 );
         });
+
+        $('#aboutRepo').click(function () {
+            console.log("hello");
+            $('#repository').toggle( "slide", {direction: "left" }, 1000 );
+        });
+
+        $('#myLinks').click(function () {
+            console.log("hello");
+            $('#links').toggle( "slide", {direction: "left" }, 1000 );
+        });
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
     });
 
 </script>

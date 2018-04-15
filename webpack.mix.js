@@ -11,5 +11,12 @@ let mix = require('laravel-mix');
  |
  */
 
+// build admin styles
+mix.styles([
+    'public/assets/custom_css/app.css',
+    'public/css/app.css'
+], 'public/css/all.css');
+
+
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
